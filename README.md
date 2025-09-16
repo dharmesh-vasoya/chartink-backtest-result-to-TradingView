@@ -1,10 +1,8 @@
-Based on the provided code, here is a README.md file in Markdown format for developers, explaining the extension's purpose and how to use it in developer mode.
-
-Chartink Symbol Copier
-Description
+**Chartink Symbol Copier**
+**Description**
 This Chrome extension adds a "Copy Symbols" button to the Chartink website's backtest results page. It allows users to quickly copy all the stock symbols from the backtest table as a single, comma-separated string, saving time on manual data extraction.
 
-Features
+**Features**
 One-Click Copy: Copies all symbols to the clipboard with a single click.
 
 Saves Time: Automates the tedious task of manually copying symbols.
@@ -13,10 +11,10 @@ User-Friendly: Displays an alert confirming the number of symbols copied.
 
 Event-Driven: Dynamically adds the button once the backtest results table is loaded on the page.
 
-For Developers: How to Use
+**For Developers: How to Use**
 To install and test this extension locally, you need to use Chrome's developer mode.
 
-Clone or Download the Code:
+**Clone or Download the Code:**
 
 Ensure you have manifest.json and content.js in a single folder.
 
@@ -44,7 +42,7 @@ The "Copy Symbols" button should automatically appear next to the "Back to all b
 
 Click on a backtest result chart to load the table of symbols, and then click the new button to copy the symbols.
 
-Code Structure
+**Code Structure**
 manifest.json: This file defines the extension's properties, permissions (clipboardWrite), and which web pages it will run on (*://*.chartink.com/*).
 
 content.js: This is the main script that runs on the Chartink website. It is responsible for:

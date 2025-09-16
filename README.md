@@ -2,6 +2,10 @@
 **Description**
 This Chrome extension adds a "Copy Symbols" button to the Chartink website's backtest results page. It allows users to quickly copy all the stock symbols from the backtest table as a single, comma-separated string, saving time on manual data extraction.
 
+**Chartink Symbol Copier**
+**Description**
+This Chrome extension adds a "Copy Symbols" button to the Chartink website's backtest results page. It allows users to quickly copy all the stock symbols from the backtest table as a single, comma-separated string, saving time on manual data extraction.
+
 **Features**
 One-Click Copy: Copies all symbols to the clipboard with a single click.
 

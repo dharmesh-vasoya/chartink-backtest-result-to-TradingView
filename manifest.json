@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Chartink Symbol Copier",
+  "version": "1.0",
+  "description": "Copy all stock symbols from Chartink backtest results in one click.",
+  "permissions": ["clipboardWrite"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.chartink.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
